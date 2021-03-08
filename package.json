@@ -4,8 +4,8 @@
   "description": "",
   "main": "api/apiServer.js",
   "scripts": {
-    "prestart": "node src/createMockDb.js",
-    "start": "node src/apiServer.js"
+    "prestart": "node api/createMockDb.js",
+    "start": "node api/apiServer.js"
   },
   "keywords": [],
   "author": "",
