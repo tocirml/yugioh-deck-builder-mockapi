@@ -1,0 +1,16 @@
+{
+  "name": "yugioh-deck-builder-mockapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/apiServer.js",
+  "scripts": {
+    "prestart": "node src/createMockDb.js",
+    "start": "node src/apiServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
