@@ -61,7 +61,7 @@ server.use(router);
 
 // Start server
 const port = 8080;
-server.listen(port, () => {
+server.listen(process.env.PORT || port, () => {
   console.log(`JSON Server is running on port ${port}`);
 });
 
